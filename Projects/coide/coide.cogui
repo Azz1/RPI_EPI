@@ -28,7 +28,7 @@
 <input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">&#x0A;<subPage horizontalPosition="0" selectedItemId="30" subPageIndex="2" verticalPosition="0"/>
 </input>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="syscalls.c" partName="syscalls.c" path="F:/Work/Lichun/zlc/Study/Workspace/pi/EmbeddedPi/RPI_EPI/Projects/coide/syscalls/syscalls.c" title="syscalls.c" tooltip="F:/Work/Lichun/zlc/Study/Workspace/pi/EmbeddedPi/RPI_EPI/Projects/coide/syscalls/syscalls.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="syscalls.c" partName="syscalls.c" path="C:/CooCox/CoIDE/workspace/RPI_EPI/Projects/coide/syscalls/syscalls.c" title="syscalls.c" tooltip="C:/CooCox/CoIDE/workspace/RPI_EPI/Projects/coide/syscalls/syscalls.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/coide/syscalls/syscalls.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1049"/>
 </editor>
@@ -36,13 +36,13 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/coide/utils/cookie_cfg.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="558"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Frame.c" partName="Frame.c" path="F:/Work/Lichun/zlc/Study/Workspace/pi/EmbeddedPi/RPI_EPI/Framework/Frame.c" title="Frame.c" tooltip="F:/Work/Lichun/zlc/Study/Workspace/pi/EmbeddedPi/RPI_EPI/Framework/Frame.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Frame.c" partName="Frame.c" path="C:/CooCox/CoIDE/workspace/RPI_EPI/Framework/Frame.c" title="Frame.c" tooltip="C:/CooCox/CoIDE/workspace/RPI_EPI/Framework/Frame.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/coide/framework/Frame.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6668" selectionTopPixel="4093"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6668" selectionTopPixel="7589"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Interface.c" partName="Interface.c" path="F:/Work/Lichun/zlc/Study/Workspace/pi/EmbeddedPi/RPI_EPI/Apps/Interface.c" title="Interface.c" tooltip="F:/Work/Lichun/zlc/Study/Workspace/pi/EmbeddedPi/RPI_EPI/Apps/Interface.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Interface.c" partName="Interface.c" path="C:/CooCox/CoIDE/workspace/RPI_EPI/Apps/Interface.c" title="Interface.c" tooltip="C:/CooCox/CoIDE/workspace/RPI_EPI/Apps/Interface.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/coide/app/Interface.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="13516" selectionTopPixel="6366"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4018" selectionTopPixel="2236"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="Interface.h" partName="Interface.h" path="F:/Work/Lichun/zlc/Study/Workspace/pi/EmbeddedPi/RPI_EPI/Apps/Interface.h" title="Interface.h" tooltip="F:/Work/Lichun/zlc/Study/Workspace/pi/EmbeddedPi/RPI_EPI/Apps/Interface.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/coide/app/Interface.h"/>
@@ -67,7 +67,7 @@
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="12">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="2">
 <expanded>
 <element path="/coide"/>
 <element path="/coide/app"/>
@@ -209,16 +209,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/coide/coxlib/inc/xsysctl.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/coide/coxlib/src/xsysctl.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/coide/framework/Frame.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/coide/syscalls/syscalls.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/coide/app/Interface.c"/>
 </editors>
-<item historyLabel="Interface.c" index="3">
-<position info="not_deleted" x="13782" y="0"/>
-</item>
-<item historyLabel="Interface.h" index="4">
-<position info="not_deleted" x="360" y="6"/>
-</item>
-<item historyLabel="Interface.c" index="3">
-<position info="not_deleted" x="13014" y="0"/>
-</item>
 <item historyLabel="Frame.c" index="2">
 <position info="not_deleted" x="11202" y="0"/>
 </item>
@@ -357,8 +350,17 @@
 <item historyLabel="Interface.c" index="3">
 <position info="not_deleted" x="13956" y="0"/>
 </item>
-<item active="true" historyLabel="Frame.c" index="10">
+<item historyLabel="Frame.c" index="10">
 <position info="not_deleted" x="6668" y="0"/>
+</item>
+<item historyLabel="syscalls.c" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Frame.c" index="10">
+<position info="not_deleted" x="6668" y="0"/>
+</item>
+<item active="true" historyLabel="Interface.c" index="12">
+<position info="not_deleted" x="13516" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

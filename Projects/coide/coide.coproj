@@ -78,8 +78,8 @@
     <File name="driver/Ardurino/Server.h" path="../../Drivers/Arduino/Server.h" type="1"/>
     <File name="driver/Ardurino/OneWire.cpp" path="../../Drivers/Arduino/OneWire.cpp" type="1"/>
     <File name="app/Interface.h" path="../../Apps/Interface.h" type="1"/>
-    <File name="driver/ADXL345.c" path="../../Drivers/Digital Accelerometer/ADXL345.c" type="1"/>
     <File name="coxlib/inc/xgpio.h" path="../../CoxLib/inc/xgpio.h" type="1"/>
+    <File name="driver/ADXL345.c" path="../../Drivers/Digital Accelerometer/ADXL345.c" type="1"/>
     <File name="utils/DebugIO.h" path="../../Utils/DebugIO.h" type="1"/>
     <File name="comport/I2C_Channel.c" path="../../ComPort/I2C_Channel.c" type="1"/>
     <File name="coxlib/inc/xtimer.h" path="../../CoxLib/inc/xtimer.h" type="1"/>
@@ -88,8 +88,8 @@
     <File name="driver/Ardurino/Port.h" path="../../Drivers/Arduino/Port.h" type="1"/>
     <File name="coxlib/inc/xi2c.h" path="../../CoxLib/inc/xi2c.h" type="1"/>
     <File name="coxlib/inc/xhw_nvic.h" path="../../CoxLib/inc/xhw_nvic.h" type="1"/>
-    <File name="driver/Ardurino/bit.h" path="../../Drivers/Arduino/bit.h" type="1"/>
     <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="driver/Ardurino/bit.h" path="../../Drivers/Arduino/bit.h" type="1"/>
     <File name="coxlib/inc/xhw_wdt.h" path="../../CoxLib/inc/xhw_wdt.h" type="1"/>
     <File name="coxlib/src/xgpio.c" path="../../CoxLib/src/xgpio.c" type="1"/>
     <File name="coxlib/inc" path="" type="2"/>
@@ -113,8 +113,8 @@
     <File name="coxlib/inc/xhw_config.h" path="../../CoxLib/inc/xhw_config.h" type="1"/>
     <File name="driver/Ardurino/WString.cpp" path="../../Drivers/Arduino/WString.cpp" type="1"/>
     <File name="coxlib/src/xcore.c" path="../../CoxLib/src/xcore.c" type="1"/>
-    <File name="driver/ADXL345.h" path="../../Drivers/Digital Accelerometer/ADXL345.h" type="1"/>
     <File name="coxlib/inc/xhw_uart.h" path="../../CoxLib/inc/xhw_uart.h" type="1"/>
+    <File name="driver/ADXL345.h" path="../../Drivers/Digital Accelerometer/ADXL345.h" type="1"/>
     <File name="driver/Ardurino/Client.h" path="../../Drivers/Arduino/Client.h" type="1"/>
     <File name="coxlib" path="" type="2"/>
     <File name="driver/Ardurino/HardwareSerial.h" path="../../Drivers/Arduino/HardwareSerial.h" type="1"/>
@@ -135,10 +135,10 @@
     <File name="driver/Ardurino/new.cpp" path="../../Drivers/Arduino/new.cpp" type="1"/>
     <File name="driver/Ardurino/IPAddress.cpp" path="../../Drivers/Arduino/IPAddress.cpp" type="1"/>
     <File name="coxlib/src/xdebug.c" path="../../CoxLib/src/xdebug.c" type="1"/>
-    <File name="coxlib/inc/xhw_timer.h" path="../../CoxLib/inc/xhw_timer.h" type="1"/>
     <File name="comport/I2C_Channel.h" path="../../ComPort/I2C_Channel.h" type="1"/>
-    <File name="coxlib/inc/xhw_dma.h" path="../../CoxLib/inc/xhw_dma.h" type="1"/>
+    <File name="coxlib/inc/xhw_timer.h" path="../../CoxLib/inc/xhw_timer.h" type="1"/>
     <File name="coxlib/inc/xhw_i2c.h" path="../../CoxLib/inc/xhw_i2c.h" type="1"/>
+    <File name="coxlib/inc/xhw_dma.h" path="../../CoxLib/inc/xhw_dma.h" type="1"/>
     <File name="coxlib/inc/xdma.h" path="../../CoxLib/inc/xdma.h" type="1"/>
     <File name="app" path="" type="2"/>
     <File name="coxlib/src/xwdt.c" path="../../CoxLib/src/xwdt.c" type="1"/>
@@ -162,22 +162,22 @@
     <File name="coxlib/inc/xdebug.h" path="../../CoxLib/inc/xdebug.h" type="1"/>
     <File name="coxlib/inc/xcore.h" path="../../CoxLib/inc/xcore.h" type="1"/>
     <File name="startup" path="" type="2"/>
-    <File name="framework" path="" type="2"/>
     <File name="coxlib/inc/xhw_ints.h" path="../../CoxLib/inc/xhw_ints.h" type="1"/>
-    <File name="coxlib/src/xtimer.c" path="../../CoxLib/src/xtimer.c" type="1"/>
+    <File name="framework" path="" type="2"/>
     <File name="driver/Ardurino/HardwareSerial.cpp" path="../../Drivers/Arduino/HardwareSerial.cpp" type="1"/>
+    <File name="coxlib/src/xtimer.c" path="../../CoxLib/src/xtimer.c" type="1"/>
     <File name="driver/Ardurino/Wire.cpp" path="../../Drivers/Arduino/Wire.cpp" type="1"/>
-    <File name="coxlib/inc/xpwm.h" path="../../CoxLib/inc/xpwm.h" type="1"/>
     <File name="driver/Ardurino/Printable.h" path="../../Drivers/Arduino/Printable.h" type="1"/>
+    <File name="coxlib/inc/xpwm.h" path="../../CoxLib/inc/xpwm.h" type="1"/>
     <File name="driver/Ardurino/SoftwareSerial.cpp" path="../../Drivers/Arduino/SoftwareSerial.cpp" type="1"/>
-    <File name="driver/Ardurino/OneWire.h" path="../../Drivers/Arduino/OneWire.h" type="1"/>
     <File name="coxlib/inc/xhw_memmap.h" path="../../CoxLib/inc/xhw_memmap.h" type="1"/>
-    <File name="coxlib/inc/xrtc.h" path="../../CoxLib/inc/xrtc.h" type="1"/>
+    <File name="driver/Ardurino/OneWire.h" path="../../Drivers/Arduino/OneWire.h" type="1"/>
     <File name="driver/Ardurino/IPAddress.h" path="../../Drivers/Arduino/IPAddress.h" type="1"/>
+    <File name="coxlib/inc/xrtc.h" path="../../CoxLib/inc/xrtc.h" type="1"/>
     <File name="comport" path="" type="2"/>
-    <File name="driver/Ardurino/Stream.cpp" path="../../Drivers/Arduino/Stream.cpp" type="1"/>
-    <File name="coxlib/src" path="" type="2"/>
     <File name="utils/cookie_cfg.h" path="../../Utils/cookie_cfg.h" type="1"/>
+    <File name="coxlib/src" path="" type="2"/>
+    <File name="driver/Ardurino/Stream.cpp" path="../../Drivers/Arduino/Stream.cpp" type="1"/>
     <File name="driver/HC_SR04.h" path="../../Drivers/UltraSonic/HC_SR04.h" type="1"/>
     <File name="coxlib/inc/xhw_gpio.h" path="../../CoxLib/inc/xhw_gpio.h" type="1"/>
     <File name="utils" path="" type="2"/>

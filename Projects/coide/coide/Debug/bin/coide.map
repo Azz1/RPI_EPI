@@ -12,42 +12,42 @@ c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/
                               c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-e_atan2.o) (atan)
 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_fabs.o)
                               c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-e_atan2.o) (fabs)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
                               ..\obj\Print.o (__aeabi_dsub)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
                               ..\obj\Stream.o (__aeabi_dmul)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
                               ..\obj\Print.o (__aeabi_dcmplt)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
                               ..\obj\Print.o (__aeabi_d2iz)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
                               ..\obj\Adafruit_MS_PWMServoDriver.o (__aeabi_d2uiz)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
                               ..\obj\Stream.o (__aeabi_d2f)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
                               ..\obj\Adafruit_MS_PWMServoDriver.o (__aeabi_fsub)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
                               ..\obj\Stream.o (__aeabi_fmul)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
                               ..\obj\Print.o (__aeabi_uldivmod)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
                               ..\obj\Print.o (__aeabi_d2lz)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
-                              C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o) (__aeabi_d2ulz)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
-                              C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
+                              ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o) (__aeabi_d2ulz)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
+                              ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
                               ..\obj\Wire.o (__aeabi_unwind_cpp_pr0)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
-                              C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o) (restore_core_regs)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
-                              C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
-                              C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
-                              C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o) (__divdi3)
-C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
-                              C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o) (__udivdi3)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
+                              ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o) (restore_core_regs)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
+                              ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
+                              ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
+                              ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o) (__divdi3)
+..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
+                              ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o) (__udivdi3)
 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atol.o)
                               ..\obj\WString.o (atol)
 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
@@ -682,8 +682,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x98 ..\obj\xwdt.o
  .debug_ranges  0x00000000       0x88 ..\obj\xwdt.o
- .debug_line    0x00000000      0x1e2 ..\obj\xwdt.o
- .debug_str     0x00000000      0x255 ..\obj\xwdt.o
+ .debug_line    0x00000000      0x1b4 ..\obj\xwdt.o
+ .debug_str     0x00000000      0x23e ..\obj\xwdt.o
  .comment       0x00000000       0x71 ..\obj\xwdt.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\xwdt.o
@@ -775,8 +775,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x80 ..\obj\TimerOne.o
  .debug_ranges  0x00000000       0x70 ..\obj\TimerOne.o
- .debug_line    0x00000000      0x1fe ..\obj\TimerOne.o
- .debug_str     0x00000000      0x4eb ..\obj\TimerOne.o
+ .debug_line    0x00000000      0x1d0 ..\obj\TimerOne.o
+ .debug_str     0x00000000      0x4bd ..\obj\TimerOne.o
  .comment       0x00000000       0x71 ..\obj\TimerOne.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\TimerOne.o
@@ -893,8 +893,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 ..\obj\OneWire.o
  .debug_ranges  0x00000000      0x140 ..\obj\OneWire.o
- .debug_line    0x00000000      0x3fc ..\obj\OneWire.o
- .debug_str     0x00000000      0x64c ..\obj\OneWire.o
+ .debug_line    0x00000000      0x3ce ..\obj\OneWire.o
+ .debug_str     0x00000000      0x61e ..\obj\OneWire.o
  .comment       0x00000000       0x71 ..\obj\OneWire.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\OneWire.o
@@ -999,8 +999,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x40 ..\obj\Sensor_Shield.o
  .debug_ranges  0x00000000       0x30 ..\obj\Sensor_Shield.o
- .debug_line    0x00000000      0x1b4 ..\obj\Sensor_Shield.o
- .debug_str     0x00000000      0x2d4 ..\obj\Sensor_Shield.o
+ .debug_line    0x00000000      0x186 ..\obj\Sensor_Shield.o
+ .debug_str     0x00000000      0x2bd ..\obj\Sensor_Shield.o
  .comment       0x00000000       0x71 ..\obj\Sensor_Shield.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\Sensor_Shield.o
@@ -1191,8 +1191,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 ..\obj\Stream.o
  .debug_ranges  0x00000000      0x210 ..\obj\Stream.o
- .debug_line    0x00000000      0x3d7 ..\obj\Stream.o
- .debug_str     0x00000000      0xca7 ..\obj\Stream.o
+ .debug_line    0x00000000      0x3c0 ..\obj\Stream.o
+ .debug_str     0x00000000      0xc79 ..\obj\Stream.o
  .comment       0x00000000       0x71 ..\obj\Stream.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\Stream.o
@@ -1843,8 +1843,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xd0 ..\obj\ADXL345.o
  .debug_ranges  0x00000000      0x118 ..\obj\ADXL345.o
- .debug_line    0x00000000      0x4e8 ..\obj\ADXL345.o
- .debug_str     0x00000000      0x524 ..\obj\ADXL345.o
+ .debug_line    0x00000000      0x4ba ..\obj\ADXL345.o
+ .debug_str     0x00000000      0x50d ..\obj\ADXL345.o
  .comment       0x00000000       0x71 ..\obj\ADXL345.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\ADXL345.o
@@ -2537,8 +2537,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000      0x240 ..\obj\WString.o
  .debug_ranges  0x00000000      0x618 ..\obj\WString.o
- .debug_line    0x00000000      0xa34 ..\obj\WString.o
- .debug_str     0x00000000      0xc33 ..\obj\WString.o
+ .debug_line    0x00000000      0xa1d ..\obj\WString.o
+ .debug_str     0x00000000      0xc05 ..\obj\WString.o
  .comment       0x00000000       0x71 ..\obj\WString.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\WString.o
@@ -2716,8 +2716,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa8 ..\obj\SoftwareSerial.o
  .debug_ranges  0x00000000      0x1a0 ..\obj\SoftwareSerial.o
- .debug_line    0x00000000      0x4f9 ..\obj\SoftwareSerial.o
- .debug_str     0x00000000     0x1306 ..\obj\SoftwareSerial.o
+ .debug_line    0x00000000      0x4cb ..\obj\SoftwareSerial.o
+ .debug_str     0x00000000     0x12d8 ..\obj\SoftwareSerial.o
  .comment       0x00000000       0x71 ..\obj\SoftwareSerial.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\SoftwareSerial.o
@@ -2806,52 +2806,52 @@ Discarded input sections
  .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_fabs.o)
  .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_fabs.o)
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_fabs.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
- .text          0x00000000       0x30 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000       0x30 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
  .ARM.attributes
-                0x00000000       0x2d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
- .debug_frame   0x00000000       0x2c C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
- .text          0x00000000       0x44 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
+                0x00000000       0x2d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
+ .debug_frame   0x00000000       0x2c ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixdfdi.o)
+ .text          0x00000000       0x44 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
  .ARM.attributes
-                0x00000000       0x2d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
- .debug_frame   0x00000000       0x2c C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
- .ARM.extab     0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
- .ARM.extab     0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
+                0x00000000       0x2d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
+ .debug_frame   0x00000000       0x2c ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_fixunsdfdi.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
  .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atol.o)
  .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atol.o)
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atol.o)
@@ -4063,7 +4063,7 @@ LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-
                 0x08004788                atan
  .text.fabs     0x08004ad8        0x8 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_fabs.o)
                 0x08004ad8                fabs
- .text          0x08004ae0      0x370 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .text          0x08004ae0      0x370 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
                 0x08004ae0                __aeabi_drsub
                 0x08004ae8                __aeabi_dsub
                 0x08004ae8                __subdf3
@@ -4079,12 +4079,12 @@ LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-
                 0x08004de4                __aeabi_ul2d
                 0x08004df4                __floatdidf
                 0x08004df4                __aeabi_l2d
- .text          0x08004e50      0x424 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
+ .text          0x08004e50      0x424 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
                 0x08004e50                __aeabi_dmul
                 0x08004e50                __muldf3
                 0x080050a4                __divdf3
                 0x080050a4                __aeabi_ddiv
- .text          0x08005274      0x110 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
+ .text          0x08005274      0x110 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
                 0x08005274                __gtdf2
                 0x08005274                __gedf2
                 0x0800527c                __ltdf2
@@ -4100,16 +4100,16 @@ LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-
                 0x08005348                __aeabi_dcmple
                 0x0800535c                __aeabi_dcmpge
                 0x08005370                __aeabi_dcmpgt
- .text          0x08005384       0x50 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
+ .text          0x08005384       0x50 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
                 0x08005384                __aeabi_d2iz
                 0x08005384                __fixdfsi
- .text          0x080053d4       0x40 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
+ .text          0x080053d4       0x40 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
                 0x080053d4                __aeabi_d2uiz
                 0x080053d4                __fixunsdfsi
- .text          0x08005414       0xa0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
+ .text          0x08005414       0xa0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
                 0x08005414                __truncdfsf2
                 0x08005414                __aeabi_d2f
- .text          0x080054b4      0x21c C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .text          0x080054b4      0x21c ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
                 0x080054b4                __aeabi_frsub
                 0x080054bc                __subsf3
                 0x080054bc                __aeabi_fsub
@@ -4123,17 +4123,17 @@ LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-
                 0x08005644                __floatundisf
                 0x08005654                __aeabi_l2f
                 0x08005654                __floatdisf
- .text          0x080056d0      0x2a0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .text          0x080056d0      0x2a0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
                 0x080056d0                __mulsf3
                 0x080056d0                __aeabi_fmul
                 0x08005838                __aeabi_fdiv
                 0x08005838                __divsf3
- .text          0x08005970       0x2c C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x08005970       0x2c ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
                 0x08005970                __aeabi_uldivmod
- .text          0x0800599c       0x60 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
+ .text          0x0800599c       0x60 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
                 0x0800599c                __gnu_ldivmod_helper
                 0x080059cc                __gnu_uldivmod_helper
- .text          0x080059fc      0xa28 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
+ .text          0x080059fc      0xa28 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
                 0x08005ce0                _Unwind_GetCFA
                 0x08005ce4                __gnu_Unwind_RaiseException
                 0x08005d44                __gnu_Unwind_ForcedUnwind
@@ -4148,7 +4148,7 @@ LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-
                 0x080061c8                __aeabi_unwind_cpp_pr1
                 0x080061d0                __aeabi_unwind_cpp_pr2
                 0x080061d8                _Unwind_VRS_Pop
- .text          0x08006424      0x1ac C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
+ .text          0x08006424      0x1ac ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
                 0x08006424                __restore_core_regs
                 0x08006424                restore_core_regs
                 0x0800643c                __gnu_Unwind_Restore_VFP
@@ -4171,19 +4171,19 @@ LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-
                 0x08006588                ___Unwind_ForcedUnwind
                 0x080065ac                ___Unwind_Backtrace
                 0x080065ac                _Unwind_Backtrace
- .text          0x080065d0      0x33c C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
+ .text          0x080065d0      0x33c ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
                 0x08006624                __gnu_unwind_execute
                 0x080068b4                __gnu_unwind_frame
                 0x080068dc                _Unwind_GetRegionStart
                 0x080068e8                _Unwind_GetLanguageSpecificData
                 0x080068fc                _Unwind_GetDataRelBase
                 0x08006904                _Unwind_GetTextRelBase
- .text          0x0800690c        0x4 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
+ .text          0x0800690c        0x4 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
                 0x0800690c                __aeabi_idiv0
                 0x0800690c                __aeabi_ldiv0
- .text          0x08006910      0x2a0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
+ .text          0x08006910      0x2a0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
                 0x08006910                __divdi3
- .text          0x08006bb0      0x290 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
+ .text          0x08006bb0      0x290 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
                 0x08006bb0                __udivdi3
  .text.malloc   0x08006e40       0x10 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-malloc.o)
                 0x08006e40                malloc
@@ -4707,8 +4707,8 @@ LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-
                 0x080137ac        0xc ..\obj\HardwareSerial.o
  .ARM.extab.text._ZN5Print5printEc
                 0x080137b8        0xc ..\obj\Print.o
- .ARM.extab     0x080137c4        0xc C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
- .ARM.extab     0x080137d0       0x18 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
+ .ARM.extab     0x080137c4        0xc ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
+ .ARM.extab     0x080137d0       0x18 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
  .ARM.extab.text._ZL21base_of_encoded_valuehP15_Unwind_Context
                 0x080137e8        0xc c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libstdc++.a(eh_personality.o)
  .ARM.extab.text.__gxx_personality_v0
@@ -4864,13 +4864,13 @@ LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-
  .ARM.exidx.text._ZdlPv
                 0x08013a18        0x0 ..\obj\new.o
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08013a18       0x88 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
+ .ARM.exidx     0x08013a18       0x88 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
                                  0xd8 (size before relaxing)
- .ARM.exidx     0x08013aa0       0x38 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
+ .ARM.exidx     0x08013aa0       0x38 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
                                  0x48 (size before relaxing)
- .ARM.exidx     0x08013ad8        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x08013ad8        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08013ad8        0x0 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x08013ad8        0x0 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_type_match
                 0x08013ad8        0x8 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libstdc++.a(eh_arm.o)
@@ -5196,11 +5196,11 @@ LOAD ..\obj\new.o
 LOAD ..\obj\SoftwareSerial.o
 LOAD ..\obj\xuart.o
 LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a
-LOAD C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a
+LOAD ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a
 LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
 LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libstdc++.a
 START GROUP
-LOAD C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a
+LOAD ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a
 LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a
 LOAD c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
 END GROUP
@@ -5283,37 +5283,37 @@ OUTPUT(coide.elf elf32-littlearm)
  .ARM.attributes
                 0x000006bf       0x2d c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_fabs.o)
  .ARM.attributes
-                0x000006ec       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
+                0x000006ec       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000709       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
+                0x00000709       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000726       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
+                0x00000726       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000743       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
+                0x00000743       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x00000760       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
+                0x00000760       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_fixunsdfsi.o)
  .ARM.attributes
-                0x0000077d       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
+                0x0000077d       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x0000079a       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
+                0x0000079a       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x000007b7       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
+                0x000007b7       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x000007d4       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
+                0x000007d4       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x000007f1       0x2d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
+                0x000007f1       0x2d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
  .ARM.attributes
-                0x0000081e       0x2d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
+                0x0000081e       0x2d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
  .ARM.attributes
-                0x0000084b       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
+                0x0000084b       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(libunwind.o)
  .ARM.attributes
-                0x00000868       0x2d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
+                0x00000868       0x2d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
  .ARM.attributes
-                0x00000895       0x1d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
+                0x00000895       0x1d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000008b2       0x2d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
+                0x000008b2       0x2d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
  .ARM.attributes
-                0x000008df       0x2d C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
+                0x000008df       0x2d ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
  .ARM.attributes
                 0x0000090c       0x2d c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
  .ARM.attributes
@@ -5654,93 +5654,93 @@ OUTPUT(coide.elf elf32-littlearm)
  .debug_ranges  0x000024c0       0x48 ..\obj\new.o
  .debug_ranges  0x00002508      0x180 ..\obj\xuart.o
 
-.debug_line     0x00000000     0x78b1
- .debug_line    0x00000000       0xa3 ..\obj\startup_coide.o
- .debug_line    0x000000a3      0x59a ..\obj\Wire.o
- .debug_line    0x0000063d      0x549 ..\obj\xcore.o
- .debug_line    0x00000b86      0x5ad ..\obj\Adafruit_MotorShield.o
- .debug_line    0x00001133      0x3f8 ..\obj\xgpio.o
- .debug_line    0x0000152b      0x32d ..\obj\HMC5883L.o
- .debug_line    0x00001858      0x309 ..\obj\Frame.o
- .debug_line    0x00001b61      0x4de ..\obj\xadc.o
- .debug_line    0x0000203f      0x2a6 ..\obj\IPAddress.o
- .debug_line    0x000022e5      0x2ca ..\obj\ringbuf.o
- .debug_line    0x000025af      0x480 ..\obj\xdma.o
- .debug_line    0x00002a2f      0x4fc ..\obj\xsysctl.o
- .debug_line    0x00002f2b      0x186 ..\obj\HC_SR04.o
- .debug_line    0x000030b1      0x40b ..\obj\HardwareSerial.o
- .debug_line    0x000034bc      0x2e8 ..\obj\Adafruit_MS_PWMServoDriver.o
- .debug_line    0x000037a4      0x3ea ..\obj\xspi.o
- .debug_line    0x00003b8e      0x8b0 ..\obj\xi2c.o
- .debug_line    0x0000443e      0x535 ..\obj\Print.o
- .debug_line    0x00004973      0x183 ..\obj\syscalls.o
- .debug_line    0x00004af6      0x888 ..\obj\cPi.o
- .debug_line    0x0000537e      0x270 ..\obj\xrtc.o
- .debug_line    0x000055ee      0x2a5 ..\obj\UART_Channel.o
- .debug_line    0x00005893      0x36b ..\obj\xpwm.o
- .debug_line    0x00005bfe      0xe2d ..\obj\xtimer.o
- .debug_line    0x00006a2b      0x30f ..\obj\SPI.o
- .debug_line    0x00006d3a      0x478 ..\obj\Interface.o
- .debug_line    0x000071b2      0x1ae ..\obj\new.o
- .debug_line    0x00007360      0x551 ..\obj\xuart.o
+.debug_line     0x00000000     0x7392
+ .debug_line    0x00000000       0x8c ..\obj\startup_coide.o
+ .debug_line    0x0000008c      0x56c ..\obj\Wire.o
+ .debug_line    0x000005f8      0x51b ..\obj\xcore.o
+ .debug_line    0x00000b13      0x568 ..\obj\Adafruit_MotorShield.o
+ .debug_line    0x0000107b      0x3ca ..\obj\xgpio.o
+ .debug_line    0x00001445      0x2ff ..\obj\HMC5883L.o
+ .debug_line    0x00001744      0x2ad ..\obj\Frame.o
+ .debug_line    0x000019f1      0x4b0 ..\obj\xadc.o
+ .debug_line    0x00001ea1      0x28f ..\obj\IPAddress.o
+ .debug_line    0x00002130      0x29c ..\obj\ringbuf.o
+ .debug_line    0x000023cc      0x452 ..\obj\xdma.o
+ .debug_line    0x0000281e      0x4ce ..\obj\xsysctl.o
+ .debug_line    0x00002cec      0x158 ..\obj\HC_SR04.o
+ .debug_line    0x00002e44      0x3dd ..\obj\HardwareSerial.o
+ .debug_line    0x00003221      0x2ba ..\obj\Adafruit_MS_PWMServoDriver.o
+ .debug_line    0x000034db      0x3bc ..\obj\xspi.o
+ .debug_line    0x00003897      0x882 ..\obj\xi2c.o
+ .debug_line    0x00004119      0x51e ..\obj\Print.o
+ .debug_line    0x00004637      0x16c ..\obj\syscalls.o
+ .debug_line    0x000047a3      0x85a ..\obj\cPi.o
+ .debug_line    0x00004ffd      0x242 ..\obj\xrtc.o
+ .debug_line    0x0000523f      0x260 ..\obj\UART_Channel.o
+ .debug_line    0x0000549f      0x33d ..\obj\xpwm.o
+ .debug_line    0x000057dc      0xdff ..\obj\xtimer.o
+ .debug_line    0x000065db      0x2e1 ..\obj\SPI.o
+ .debug_line    0x000068bc      0x41c ..\obj\Interface.o
+ .debug_line    0x00006cd8      0x197 ..\obj\new.o
+ .debug_line    0x00006e6f      0x523 ..\obj\xuart.o
 
-.debug_str      0x00000000     0x60dc
- .debug_str     0x00000000      0x149 ..\obj\startup_coide.o
-                                0x15b (size before relaxing)
- .debug_str     0x00000149     0x1329 ..\obj\Wire.o
-                               0x1405 (size before relaxing)
- .debug_str     0x00001472      0x293 ..\obj\xcore.o
-                                0x356 (size before relaxing)
- .debug_str     0x00001705      0x5ce ..\obj\Adafruit_MotorShield.o
-                                0x841 (size before relaxing)
- .debug_str     0x00001cd3      0x280 ..\obj\xgpio.o
-                                0x389 (size before relaxing)
- .debug_str     0x00001f53      0x176 ..\obj\HMC5883L.o
-                                0x3a2 (size before relaxing)
- .debug_str     0x000020c9      0x1b5 ..\obj\Frame.o
-                                0x39e (size before relaxing)
- .debug_str     0x0000227e      0x48a ..\obj\xadc.o
-                                0x56b (size before relaxing)
- .debug_str     0x00002708      0x279 ..\obj\IPAddress.o
-                                0x4e7 (size before relaxing)
- .debug_str     0x00002981      0x1c6 ..\obj\ringbuf.o
-                                0x380 (size before relaxing)
- .debug_str     0x00002b47      0x357 ..\obj\xdma.o
-                                0x452 (size before relaxing)
- .debug_str     0x00002e9e      0x458 ..\obj\xsysctl.o
-                                0x5e0 (size before relaxing)
- .debug_str     0x000032f6      0x194 ..\obj\HC_SR04.o
-                                0x3db (size before relaxing)
- .debug_str     0x0000348a      0x309 ..\obj\HardwareSerial.o
-                               0x102c (size before relaxing)
- .debug_str     0x00003793       0xda ..\obj\Adafruit_MS_PWMServoDriver.o
-                                0x4d5 (size before relaxing)
- .debug_str     0x0000386d      0x2c3 ..\obj\xspi.o
-                                0x3e8 (size before relaxing)
- .debug_str     0x00003b30      0x394 ..\obj\xi2c.o
-                                0x570 (size before relaxing)
- .debug_str     0x00003ec4      0x319 ..\obj\Print.o
-                                0xd07 (size before relaxing)
- .debug_str     0x000041dd      0x17d ..\obj\syscalls.o
-                                0x310 (size before relaxing)
- .debug_str     0x0000435a      0x5f4 ..\obj\cPi.o
-                                0xb03 (size before relaxing)
- .debug_str     0x0000494e      0x1c3 ..\obj\xrtc.o
-                                0x2da (size before relaxing)
- .debug_str     0x00004b11       0x92 ..\obj\UART_Channel.o
-                                0x3f1 (size before relaxing)
- .debug_str     0x00004ba3      0x192 ..\obj\xpwm.o
-                                0x333 (size before relaxing)
- .debug_str     0x00004d35      0xb87 ..\obj\xtimer.o
-                                0xdba (size before relaxing)
- .debug_str     0x000058bc      0x28b ..\obj\SPI.o
-                                0x5d6 (size before relaxing)
- .debug_str     0x00005b47      0x122 ..\obj\Interface.o
-                                0x4eb (size before relaxing)
- .debug_str     0x00005c69      0x10c ..\obj\new.o
-                                0x228 (size before relaxing)
- .debug_str     0x00005d75      0x367 ..\obj\xuart.o
-                                0x54f (size before relaxing)
+.debug_str      0x00000000     0x5e41
+ .debug_str     0x00000000      0x132 ..\obj\startup_coide.o
+                                0x144 (size before relaxing)
+ .debug_str     0x00000132     0x12fb ..\obj\Wire.o
+                               0x13d7 (size before relaxing)
+ .debug_str     0x0000142d      0x27c ..\obj\xcore.o
+                                0x33f (size before relaxing)
+ .debug_str     0x000016a9      0x5b7 ..\obj\Adafruit_MotorShield.o
+                                0x813 (size before relaxing)
+ .debug_str     0x00001c60      0x269 ..\obj\xgpio.o
+                                0x372 (size before relaxing)
+ .debug_str     0x00001ec9      0x15f ..\obj\HMC5883L.o
+                                0x374 (size before relaxing)
+ .debug_str     0x00002028      0x19e ..\obj\Frame.o
+                                0x370 (size before relaxing)
+ .debug_str     0x000021c6      0x473 ..\obj\xadc.o
+                                0x554 (size before relaxing)
+ .debug_str     0x00002639      0x262 ..\obj\IPAddress.o
+                                0x4b9 (size before relaxing)
+ .debug_str     0x0000289b      0x1af ..\obj\ringbuf.o
+                                0x352 (size before relaxing)
+ .debug_str     0x00002a4a      0x340 ..\obj\xdma.o
+                                0x43b (size before relaxing)
+ .debug_str     0x00002d8a      0x441 ..\obj\xsysctl.o
+                                0x5c9 (size before relaxing)
+ .debug_str     0x000031cb      0x17d ..\obj\HC_SR04.o
+                                0x3ad (size before relaxing)
+ .debug_str     0x00003348      0x2f2 ..\obj\HardwareSerial.o
+                                0xffe (size before relaxing)
+ .debug_str     0x0000363a       0xc3 ..\obj\Adafruit_MS_PWMServoDriver.o
+                                0x4a7 (size before relaxing)
+ .debug_str     0x000036fd      0x2ac ..\obj\xspi.o
+                                0x3d1 (size before relaxing)
+ .debug_str     0x000039a9      0x37d ..\obj\xi2c.o
+                                0x559 (size before relaxing)
+ .debug_str     0x00003d26      0x302 ..\obj\Print.o
+                                0xcd9 (size before relaxing)
+ .debug_str     0x00004028      0x166 ..\obj\syscalls.o
+                                0x2e2 (size before relaxing)
+ .debug_str     0x0000418e      0x5dd ..\obj\cPi.o
+                                0xad5 (size before relaxing)
+ .debug_str     0x0000476b      0x1ac ..\obj\xrtc.o
+                                0x2c3 (size before relaxing)
+ .debug_str     0x00004917       0x7b ..\obj\UART_Channel.o
+                                0x3c3 (size before relaxing)
+ .debug_str     0x00004992      0x17b ..\obj\xpwm.o
+                                0x31c (size before relaxing)
+ .debug_str     0x00004b0d      0xb70 ..\obj\xtimer.o
+                                0xda3 (size before relaxing)
+ .debug_str     0x0000567d      0x274 ..\obj\SPI.o
+                                0x5a8 (size before relaxing)
+ .debug_str     0x000058f1      0x10b ..\obj\Interface.o
+                                0x4bd (size before relaxing)
+ .debug_str     0x000059fc       0xf5 ..\obj\new.o
+                                0x211 (size before relaxing)
+ .debug_str     0x00005af1      0x350 ..\obj\xuart.o
+                                0x538 (size before relaxing)
 
 .debug_frame    0x00000000     0x52a4
  .debug_frame   0x00000000       0x38 ..\obj\startup_coide.o
@@ -5777,11 +5777,11 @@ OUTPUT(coide.elf elf32-littlearm)
  .debug_frame   0x000035a4       0x38 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-e_atan2.o)
  .debug_frame   0x000035dc       0x38 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_atan.o)
  .debug_frame   0x00003614       0x20 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_fabs.o)
- .debug_frame   0x00003634       0x58 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
- .debug_frame   0x0000368c      0x2ac C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
- .debug_frame   0x00003938       0xe8 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
- .debug_frame   0x00003a20       0x34 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
- .debug_frame   0x00003a54       0x34 C:\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00003634       0x58 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(bpabi.o)
+ .debug_frame   0x0000368c      0x2ac ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(unwind-arm.o)
+ .debug_frame   0x00003938       0xe8 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(pr-support.o)
+ .debug_frame   0x00003a20       0x34 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_divdi3.o)
+ .debug_frame   0x00003a54       0x34 ..\..\..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.7 2013q1\arm-none-eabi\lib\armv7-m\libgcc.a(_udivdi3.o)
  .debug_frame   0x00003a88       0x30 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-malloc.o)
  .debug_frame   0x00003ab8       0x38 c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mallocr.o)
  .debug_frame   0x00003af0       0x2c c:/program files/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcmp.o)
