@@ -67,7 +67,7 @@ unsigned long uartCallback(void *pvCBData, unsigned long ulEvent, unsigned long 
         } else {
             c = xUARTCharGetNonBlocking(sUART_BASE); //c = xHWREG(sUART_BASE + USART_DR);
         } 
-    } 
+    }
     return 0;
 }
 
@@ -92,9 +92,9 @@ void HardwareSerial::begin(unsigned long baud)
     
     xUARTIntCallbackInit(serialPort, uartCallback);  
     xUARTIntEnable(serialPort, xUART_INT_RX);
-    xIntEnable(xSysCtlPeripheralIntNumGet(serialPort));
+    xIntEnable(xSysCtlPeripheraIntNumGet(serialPort));
 
-    transmitting = false;
+    transmiting = false;
 }
 
 void HardwareSerial::begin(unsigned long baud, unsigned long config)
@@ -107,12 +107,12 @@ void HardwareSerial::begin(unsigned long baud, unsigned long config)
     
     xUARTIntCallbackInit(serialPort, uartCallback);  
     xUARTIntEnable(serialPort, xUART_INT_RX);
-    xIntEnable(xSysCtlPeripheralIntNumGet(serialPort));
+    xIntEnable(xSysCtlPeripheraIntNumGet(serialPort));
 }
 
 void HardwareSerial::end()
 { 
-    xUARTIntDisable(serialPort, xUART_INT_RX);
+    //xUARTIntDisable(serialPort, xUART_INT_RX);	//TEST
     xUARTDisable(serialPort, (xUART_BLOCK_UART | xUART_BLOCK_TX | xUART_BLOCK_RX));
     xSysCtlPeripheralDisable2(serialPort);
     // clear any received data
@@ -148,8 +148,8 @@ int HardwareSerial::read(void)
 void HardwareSerial::flush()
 {
     // UDR is kept full while the buffer is not empty, so TXC triggers when EMPTY && SENT
-	while (transmitting && xUARTBusy(serialPort));
-    transmitting = false;
+	while (transmiting && xUARTBusy(serialPort));
+    transmiting = false;
 }
 
 size_t HardwareSerial::write(uint8_t c)

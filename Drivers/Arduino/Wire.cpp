@@ -28,6 +28,7 @@ extern "C" unsigned long WireClass::I2CCallbackFunc(void *pvCBData, unsigned lon
     return 0;
 }
 
+
 /******************
  * Public methods *
  ******************/
@@ -66,7 +67,7 @@ void WireClass::begin(uint8_t address){
     xI2CSlaveEnable(i2cPort);
     xI2CIntCallbackInit(i2cPort, WireClass::I2CCallbackFunc);
     xI2CSlaveIntEnable(i2cPort, xI2C_SLAVE_INT_DATA | xI2C_MASTER_INT_DATA);
-    xIntEnable(xSysCtlPeripheralIntNumGet(i2cPort));
+    xIntEnable(xSysCtlPeripheraIntNumGet(i2cPort));
 }
 
 void WireClass::begin(int address){
@@ -107,9 +108,9 @@ size_t WireClass::write(uint8_t data){
         // reply to master
         ulW++;
         if(ulW == 1)
-            xI2CMasterWriteS1(i2cPort, txAddress, data, xfalse);
+            xI2CMasterWriteS1(i2cPort, (unsigned char)txAddress, data, xfalse);
         else
-            xI2CMasterWriteS2(i2cPort, data, xfalse);
+            xI2CMasterWriteS2(i2cPort, (unsigned char)data, xfalse);
     }
     return 1;  
 }
@@ -131,9 +132,9 @@ size_t WireClass::write(const uint8_t *buf, size_t quantity){
         // in slave send mode, reply to master
         ulW++;
         if(ulW == 1)
-            xI2CMasterWriteBufS1(i2cPort, txAddress, (unsigned char*)buf, quantity, xfalse);
+            xI2CMasterWriteBufS1(i2cPort, (unsigned char)txAddress, (unsigned char*)buf, (unsigned long)quantity, (xtBoolean)xfalse);
         else
-            xI2CMasterWriteBufS2(i2cPort, (unsigned char*)buf, quantity, xfalse);
+            xI2CMasterWriteBufS2(i2cPort, (unsigned char*)buf, (unsigned long)quantity, (xtBoolean)xfalse);
     }
     return quantity;   
 }

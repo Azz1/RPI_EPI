@@ -397,7 +397,6 @@ extern "C"
 #define xI2CMasterInit(ulBase, ulI2CClk)                                      \
         do                                                                    \
         {                                                                     \
-            xASSERT(ulI2CClk == 100000 || ulI2CClk == 400000);                \
             I2CMasterInit(ulBase, SysCtlAPB1ClockGet(),                       \
                 (ulI2CClk == 400000) ? xtrue : xfalse, xtrue);                \
         }while(0)                                     
@@ -1511,7 +1510,7 @@ extern "C"
 //! Slave RECEIVER mode,STOPF flag
 //
 #define I2C_EVENT_SLAVE_STOP_DETECTED                                         \
-                                0x00000010
+                                0x00120000
 
 //
 //! Slave TRANSMITTER mode,TRA, BUSY, TXE and BTF flags
@@ -1725,8 +1724,6 @@ extern void I2CMasterInit(unsigned long ulBase, unsigned long ulI2CClk,
                           xtBoolean bFast, xtBoolean bDutyCycle);
 extern void I2CSlaveInit(unsigned long ulBase, unsigned long ulAddrConfig, 
                          unsigned char ucSlaveAddr, unsigned long ulGeneralCall);
-extern void I2CStartSend (unsigned long ulBase);
-extern void I2CStopSend (unsigned long ulBase);
 extern void I2CEnable(unsigned long ulBase);
 extern void I2CDisable(unsigned long ulBase);
 extern void I2CMasterEnable(unsigned long ulBase);
@@ -1801,8 +1798,7 @@ extern unsigned long I2CMasterReadBufS2(unsigned long ulBase,
 extern void I2CIntCallbackInit(unsigned long ulBase, 
                                xtEventCallback xtI2CCallback);
 
-extern void I2CInit(unsigned long ulBase, unsigned long ulClk);
-extern xtBoolean I2CEventCheck (unsigned long ulBase, unsigned long ulEvent);
+
 
 
 //*****************************************************************************

@@ -123,7 +123,6 @@ static const unsigned long g_pulCLKSELRegs[] =
 
 static volatile const unsigned char g_APBAHBPrescTable[16] = 
        {0, 0, 0, 0, 1, 2, 3, 4, 1, 2, 3, 4, 6, 7, 8, 9};
-
 static volatile const unsigned char g_ADCPrescTable[4] = {2, 4, 6, 8};
 
 static const unsigned char g_AHBPrescTable[9] = 
@@ -376,9 +375,6 @@ SysCtlPeripheralValid(unsigned long ulPeripheral)
 void
 SysCtlPeripheralReset(unsigned long ulPeripheral)
 {
-    unsigned long ulReg = 0;
-    unsigned long ulMask = 0;
-        
     //
     // Check the arguments.
     //
@@ -386,12 +382,9 @@ SysCtlPeripheralReset(unsigned long ulPeripheral)
 
     //
     // Put the peripheral into the reset state.
-    //    
-    //xHWREG(g_pulIPRSTRegs[SYSCTL_PERIPH_INDEX(ulPeripheral)]) |=
-    //    SYSCTL_PERIPH_MASK(ulPeripheral);
-    ulReg  = g_pulIPRSTRegs[SYSCTL_PERIPH_INDEX(ulPeripheral)];
-    ulMask = SYSCTL_PERIPH_MASK(ulPeripheral);
-    xHWREG(ulReg) |= ulMask;
+    //
+    xHWREG(g_pulIPRSTRegs[SYSCTL_PERIPH_INDEX(ulPeripheral)]) |=
+        SYSCTL_PERIPH_MASK(ulPeripheral);
 
     //
     // Delay for a little bit.
@@ -401,9 +394,8 @@ SysCtlPeripheralReset(unsigned long ulPeripheral)
     //
     // Take the peripheral out of the reset state.
     //
-    //xHWREG(g_pulIPRSTRegs[SYSCTL_PERIPH_INDEX(ulPeripheral)]) &=
-    //    ~(SYSCTL_PERIPH_MASK(ulPeripheral));
-    xHWREG(ulReg) &= ~ulMask;
+    xHWREG(g_pulIPRSTRegs[SYSCTL_PERIPH_INDEX(ulPeripheral)]) &=
+        ~(SYSCTL_PERIPH_MASK(ulPeripheral));
 }
 
 //*****************************************************************************
@@ -598,7 +590,7 @@ xSysCtlPeripheralReset2(unsigned long ulPeripheralBase)
 //
 //*****************************************************************************
 unsigned long 
-xSysCtlPeripheralIntNumGet(unsigned long ulPeripheralBase)
+xSysCtlPeripheraIntNumGet(unsigned long ulPeripheralBase)
 {
     unsigned long i;
     
@@ -654,9 +646,9 @@ xSysCtlPeripheralIntNumGet(unsigned long ulPeripheralBase)
 void
 SysCtlClockSet(unsigned long ulSysClk, unsigned long ulConfig)
 {
-    volatile unsigned long ulStartUpCounter = 0;
+    volatile unsigned long ulStartUpCounter;
     xtBoolean xtStatus;
-    unsigned long ulOscFreq = 0;
+    unsigned long ulOscFreq;
     xASSERT((ulSysClk > 0 && ulSysClk <= 72000000));
 
     //
@@ -668,9 +660,9 @@ SysCtlClockSet(unsigned long ulSysClk, unsigned long ulConfig)
     // Reset SW, HPRE, PPRE1, PPRE2, ADCPRE and MCO bits
     //
 #if (STM32F1xx_DEVICE == STM32F10X_CL)    
-    xHWREG(RCC_CFGR) &= 0xF0FF0000;
-#else
     xHWREG(RCC_CFGR) &= 0xF8FF0000;
+#else
+    xHWREG(RCC_CFGR) &= 0xF0FF0000;
 #endif /* STM32F10X_CL */
     
     //
@@ -725,7 +717,7 @@ SysCtlClockSet(unsigned long ulSysClk, unsigned long ulConfig)
     // Calc oscillator freq
     //
     if((((ulConfig & SYSCTL_XTAL_MASK) >> 8) >=4) && 
-       (((ulConfig & SYSCTL_XTAL_MASK) >> 8) <=25))
+       (((ulConfig & SYSCTL_XTAL_MASK) >> 8) <=16))
     {
         s_ulExtClockMHz = ((ulConfig & SYSCTL_XTAL_MASK) >> 8);
     }
@@ -794,8 +786,6 @@ SysCtlClockSet(unsigned long ulSysClk, unsigned long ulConfig)
             xHWREG(RCC_CFGR) |= 0;
             
             while((xHWREG(RCC_CFGR) & RCC_CFGR_SWS_M) != 0x00); 
-            
-            ulOscFreq = 8000000;
             
             if((ulConfig & SYSCTL_INT_OSC_DIS)!=0)
             {
@@ -903,7 +893,7 @@ SysCtlClockSet(unsigned long ulSysClk, unsigned long ulConfig)
             if(((ulSysClk*2) % ulOscFreq) == 0)
             {
                 xHWREG(RCC_CFGR) &= ~(RCC_CFGR_PLLSRC | RCC_CFGR_PLLMUL_M);
-                xHWREG(RCC_CFGR) |= ((ulSysClk * 2 / ulOscFreq - 2) << 
+                xHWREG(RCC_CFGR) |= ((ulSysClk * 2 / ulOscFreq) << 
                                      RCC_CFGR_PLLMUL_S) & RCC_CFGR_PLLMUL_M;
             }
             else
@@ -913,11 +903,9 @@ SysCtlClockSet(unsigned long ulSysClk, unsigned long ulConfig)
             }
         }
             
-        //APB1 is limited to 36MHz, so we need to 1/2 divide
+
+               
         xHWREG(RCC_CFGR) |= SYSCTL_APB1CLOCK_DIV << RCC_CFGR_PPRE1_S;
-        
-        //APB2 operates at full speed(Up to 72MHz depending on the device)
-        //we set APB2_Clock == AHB_Clock
         xHWREG(RCC_CFGR) |= SYSCTL_APB2CLOCK_DIV << RCC_CFGR_PPRE2_S;
 
         xHWREG(RCC_CR) |= RCC_CR_PLLON;
@@ -1230,11 +1218,9 @@ SysCtlPeripheralClockSourceSet(unsigned long ulPeripheralSrc, unsigned long ulDi
     }
     else if(ulPeripheralSrc==SYSCTL_ADC_HCLK)
     {
-        for(ulTemp=0; ulTemp<8; ulTemp++)
-        {
-            if(ulDivide == (1 << ulTemp))
-                break;
-        }
+    	if(ulDivide < 2) ulDivide = 2;
+    	if(ulDivide > 8) ulDivide = 8;
+    	ulTemp = (ulDivide >> 1) - 1;
         xHWREG(RCC_CFGR) &= ~RCC_CFGR_ADCPRE_M;
         xHWREG(RCC_CFGR) |= (ulTemp << RCC_CFGR_ADCPRE_S);
     }

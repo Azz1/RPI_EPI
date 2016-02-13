@@ -112,7 +112,19 @@ extern "C"
 //
 //! All Error Interrupt Mask
 //
-#define xUART_INT_ERROR         UART_INT_ERR
+
+#define UART_INT_TX             0x020       // Transmit Interrupt Mask
+#define UART_INT_RX             0x010       // Receive Interrupt Mask
+#define UART_INT_WAKEUP 0x040 // Wake up CPU function
+#define UART_INT_BUFERR 0x020 // Buffer Error Interrupt
+#define UART_INT_RTO 0x010 // Rx Time out Interrupt
+#define UART_INT_MOS 0x008 // RModem Status Interrupt
+#define UART_INT_RLS 0x004 // Receive Line Status Interrupt
+#define UART_INT_THRE 0x002 // Transmit Holding Register Empty Interrupt
+#define UART_INT_RDA 0x001 // Receive Data Available Interrupt.
+
+
+#define xUART_INT_ERROR         UART_INT_RLS        
 
 //
 //! Receive Timeout Interrupt Mask
@@ -122,12 +134,12 @@ extern "C"
 //
 //! Transmit Interrupt Mask
 //
-#define xUART_INT_TX            UART_INT_TXE
+#define xUART_INT_TX            UART_INT_THRE       
 
 //
 //! Receive Interrupt Mask
 //
-#define xUART_INT_RX            UART_INT_RXNE
+#define xUART_INT_RX            UART_INT_RDA
 
 //
 //! DSR Modem Interrupt Mask
@@ -142,7 +154,7 @@ extern "C"
 //
 //! CTS Modem Interrupt Mask
 //
-#define xUART_INT_CTS           UART_INT_CTS
+#define xUART_INT_CTS           0 
 
 //
 //! RI Modem Interrupt Mask
@@ -152,7 +164,7 @@ extern "C"
 //
 //! LIN Mode Sync Break Interrupt Mask
 //
-#define xUART_INT_LMSB          UART_INT_LIN
+#define xUART_INT_LMSB          0
 
 
 //*****************************************************************************
@@ -206,32 +218,32 @@ extern "C"
 //
 //! Transmit Event Mask
 //
-#define xUART_EVENT_TX          UART_INT_TXE
+#define xUART_EVENT_TX          UART_INT_THRE       
 
 //
 //! Receive Event Mask
 //
-#define xUART_EVENT_RX          UART_INT_RXNE
+#define xUART_EVENT_RX          UART_INT_RDA   
 
 //
 //! Overrun Error Event Mask
 //
-#define xUART_EVENT_OE          UART_RXERROR_OVERRUN
+#define xUART_EVENT_OE          UART_INT_RLS       
 
 //
 //! Parity Error Event Mask
 //
-#define xUART_EVENT_PE          UART_RXERROR_PARITY
+#define xUART_EVENT_PE          UART_INT_RLS       
 
 //
 //! Framing Error Event Mask
 //
-#define xUART_EVENT_FE          UART_RXERROR_FRAMING
+#define xUART_EVENT_FE          UART_INT_RLS       
 
 //
 //! Receive Timeout Event Mask
 //
-#define xUART_EVENT_RT          0
+#define xUART_EVENT_RT          UART_INT_RTO       
 
 //
 //! DSR Modem Event Mask
@@ -866,8 +878,7 @@ extern "C"
 //! \return None.
 //
 //*****************************************************************************
-#define xUARTDisable(ulBase, ulBlock)                                         \
-		UARTDisable(ulBase, ulBlock)
+#define xUARTDisable(ulBase, ulBlock) 
 
 //*****************************************************************************
 //
@@ -1042,7 +1053,7 @@ extern "C"
 //! transmissions are complete.
 //
 //*****************************************************************************
-#define xUARTBusy(ulBase)                                                    \
+#define xUARTBusy(ulBase)			\
 		UARTBusy(ulBase)
 
 //*****************************************************************************
@@ -1894,8 +1905,6 @@ extern void UARTConfigSet(unsigned long ulBase, unsigned long ulBaud,
                           unsigned long ulConfig);
 extern void UARTEnable(unsigned long ulBase, unsigned long ulBlock);
 extern void UARTDisable(unsigned long ulBase, unsigned long ulBlock);
-xtBoolean UARTFIFORxIsEmpty(unsigned long ulBase);
-xtBoolean UARTFIFOTxIsEmpty(unsigned long ulBase);
 extern void UARTEnableIrDA(unsigned long ulBase);
 extern void UARTDisableIrDA(unsigned long ulBase);
 extern void UARTIrDAConfig(unsigned long ulBase, unsigned long ulBaud, 

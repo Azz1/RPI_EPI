@@ -56,17 +56,6 @@ static xtEventCallback g_pfnSPIHandlerCallbacks[3]={0};
 
 //*****************************************************************************
 //
-// If building with a C++ compiler, make all of the definitions in this header
-// have a C binding.
-//
-//*****************************************************************************
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
-//*****************************************************************************
-//
 //! \brief SPI1 interrupt handler. Clear the SPI interrupt flag and execute the 
 //! callback function.
 //!
@@ -197,10 +186,6 @@ SPI3IntHandler(void)
         g_pfnSPIHandlerCallbacks[2](0, 0, ulEventFlags, 0);
     }
 }
-
-#ifdef __cplusplus
-}
-#endif
 
 //*****************************************************************************
 //

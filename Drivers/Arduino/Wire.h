@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include "Arduino.h"
 #include "Stream.h"
+#include "xi2c.h"
 
 #define BUFFER_LENGTH 32
 

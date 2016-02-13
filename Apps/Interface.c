@@ -19,11 +19,11 @@
 #include "xadc.h"
 #include "xtimer.h"
 #include "DriverCfg.h"
-//#include "Adafruit_MotorShield.h"
 
 #define STAT_MOTOR_UNINIT    0
 #define STAT_MOTOR_INIT      1
 #define STAT_MOTOR_OVER      5
+
 
 //
 // Timer4 interrupt callback function, to deal with step motor
@@ -37,6 +37,7 @@ unsigned long Timer4Callback(void *pvCBData,  unsigned long ulEvent,
 
 unsigned long MotorShieldOperation(CMDSTRUCT *pCmdStruct)
 {
+
     //
     // MotoShield initialization status.
     //
@@ -104,8 +105,10 @@ unsigned long MotorShieldOperation(CMDSTRUCT *pCmdStruct)
             break;
         }
     }
+
 	return 0;
 }
+
 
 unsigned long UltrasonicSensorOperation(CMDSTRUCT *pCmdStruct)
 {
@@ -382,7 +385,22 @@ unsigned long SystemCtl(CMDSTRUCT *pCmdStruct)
     unsigned char *ErrorInfo = "This Command is not supported by this firmware";
     unsigned char index = 0;
 
-    if(pCmdStruct->cmd_3 == 0x02)
+    if(pCmdStruct->cmd_3 == 0x01)	// Return T_Msg directly
+    {
+    	if(pCmdStruct->rx_len > 0) {
+            while(pCmdStruct->rx_len != index)
+            {
+                pCmdStruct->tx_buf[index] = pCmdStruct->rx_buf[index];
+                index ++;
+            }
+            pCmdStruct->tx_buf[index] = 0x00;
+    	}
+    	index = 0;
+        while(pCmdStruct->tx_buf[index++] != 0x00);
+        pCmdStruct->ret = TRUE;
+        pCmdStruct->tx_len = index;
+    }
+    else if(pCmdStruct->cmd_3 == 0x02)
     {
         while(*FwVer)
         {

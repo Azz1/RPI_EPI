@@ -103,8 +103,10 @@ extern "C"
 //
 //*****************************************************************************
 
-#define sD0                     PA3
-#define sD1                     PA2
+#define sD0                     PA10
+								//PA3
+#define sD1                     PA9
+								//PA2
 #define sD2                     PA10
 #define sD3                     PB3
 #define sD4                     PB5
@@ -120,8 +122,10 @@ extern "C"
 #define sD14                    PB9
 #define sD15                    PB8
 
-#define sSDA                    PB9
-#define sSCL                    PB8
+#define sSDA                    PB11
+								//PB9
+#define sSCL                    PB10
+								//PB8
 
 //*****************************************************************************
 //
@@ -175,9 +179,9 @@ extern "C"
 
 #define sSPI_BASE               xSPI1_BASE
 #define sICSP_SPI_BASE          xSPI1_BASE
-#define sI2C_BASE               xI2C1_BASE
+#define sI2C_BASE               xI2C2_BASE
 #define sADC_BASE               xADC1_BASE
-#define sUART_BASE              xUART2_BASE
+#define sUART_BASE              xUART1_BASE
 #define sPWMA_BASE              xPWMA_BASE
 #define sPWMB_BASE              xPWMD_BASE
 #define sTIMER_BASE             xTIMER4_BASE
@@ -199,8 +203,8 @@ extern "C"
 #define sPinTypeUART(ulBase)                                                  \
         do                                                                    \
         {                                                                     \
-           xSPinTypeUART(UART2RX, sD0);                                       \
-           xSPinTypeUART(UART2TX, sD1);                                       \
+           xSPinTypeUART(UART1RX, sD0);                                       \
+           xSPinTypeUART(UART1TX, sD1);                                       \
         }while(0)
 
 #define sPinTypeSPI(ulBase)                                                   \

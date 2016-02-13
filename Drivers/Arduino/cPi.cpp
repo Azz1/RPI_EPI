@@ -467,51 +467,51 @@ void attachInterrupt(int pin, void (*ISR)(void), GPIOIntMode mode){
         // Install the interrupt callback function which will be called by EXTI interrupt service function
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD2), xGPIOSPinToPin(sD2), arduPin2_Callback);
         // Enable the GPIO global INT
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD2)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD2)));
     } else if(pin == 3){
         xGPIOSPinIntEnable(sD3, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD3), xGPIOSPinToPin(sD3), arduPin3_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD3)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD3)));
     }else if(pin == 4){
         xGPIOSPinIntEnable(sD4, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD4), xGPIOSPinToPin(sD4), arduPin4_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD4)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD4)));
     }else if(pin == 5){
         xGPIOSPinIntEnable(sD5, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD5), xGPIOSPinToPin(sD5), arduPin5_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD5)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD5)));
     }else if(pin == 6){
         xGPIOSPinIntEnable(sD6, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD6), xGPIOSPinToPin(sD6), arduPin6_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD6)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD6)));
     }else if(pin == 7){
         xGPIOSPinIntEnable(sD7, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD7), xGPIOSPinToPin(sD7), arduPin7_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD7)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD7)));
     }else if(pin == 8){
         xGPIOSPinIntEnable(sD8, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD8), xGPIOSPinToPin(sD8), arduPin8_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD8)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD8)));
     }else if(pin == 9){
         xGPIOSPinIntEnable(sD9, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD9), xGPIOSPinToPin(sD9), arduPin9_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD9)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD9)));
     }else if(pin == 10){
         xGPIOSPinIntEnable(sD10, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD10), xGPIOSPinToPin(sD10), arduPin10_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD10)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD10)));
     }else if(pin == 11){
         xGPIOSPinIntEnable(sD11, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD11), xGPIOSPinToPin(sD11), arduPin11_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD11)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD11)));
     }else if(pin == 12){
         xGPIOSPinIntEnable(sD12, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD12), xGPIOSPinToPin(sD12), arduPin12_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD12)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD12)));
     }else if(pin == 13){
         xGPIOSPinIntEnable(sD13, mode);
         xGPIOPinIntCallbackInit(xGPIOSPinToPort(sD13), xGPIOSPinToPin(sD13), arduPin13_Callback);
-        xIntEnable(xSysCtlPeripheralIntNumGet(xGPIOSPinToPort(sD13)));
+        xIntEnable(xSysCtlPeripheraIntNumGet(xGPIOSPinToPort(sD13)));
     }
     arduPinIntFun[pin] = ISR;
 }

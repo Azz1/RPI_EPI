@@ -87,10 +87,7 @@ UARTBaseValid(unsigned long ulBase)
 }
 #endif
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+
 //*****************************************************************************
 //
 //! \internal
@@ -103,7 +100,8 @@ extern "C"
 //! \return None.
 //
 //*****************************************************************************
-void USART1IntHandler(void)
+void 
+USART1IntHandler(void)
 {
     unsigned long ulUART1IntStatus;
 
@@ -131,7 +129,8 @@ void USART1IntHandler(void)
 //! \return None.
 //
 //*****************************************************************************
-void USART2IntHandler(void)
+void 
+USART2IntHandler(void)
 {
     unsigned long ulUART2IntStatus;
 
@@ -159,7 +158,8 @@ void USART2IntHandler(void)
 //! \return None.
 //
 //*****************************************************************************
-void USART3IntHandler(void)
+void 
+USART3IntHandler(void)
 {
     unsigned long ulUART3IntStatus;
 
@@ -187,7 +187,8 @@ void USART3IntHandler(void)
 //! \return None.
 //
 //*****************************************************************************
-void UART4IntHandler(void)
+void 
+UART4IntHandler(void)
 {
     unsigned long ulUART4IntStatus;
 
@@ -215,7 +216,8 @@ void UART4IntHandler(void)
 //! \return None.
 //
 //*****************************************************************************
-void UART5IntHandler(void)
+void 
+UART5IntHandler(void)
 {
     unsigned long ulUART5IntStatus;
 
@@ -231,9 +233,6 @@ void UART5IntHandler(void)
     }
 }
 
-#ifdef __cplusplus
-}
-#endif
 //*****************************************************************************
 //
 //! \brief Sets the type of parity.
@@ -795,52 +794,7 @@ UARTLINConfig(unsigned long ulBase, unsigned long ulBaud,
 
     xHWREG(ulBase + USART_CR2) &= ~UART_CONFIG_BKFL_11;
     xHWREG(ulBase + USART_CR2) = (ulConfig);
-}
 
-//*****************************************************************************
-//
-//! \brief Determines if there are any characters in receiver register.
-//!
-//! \param ulBase is the base address of the UART port.
-//!
-//! This function returns a flag indicating whether or not there is data
-//! available in the receive register.
-//!
-//! \return Returns \b true if there is data in the receive register or \b false
-//! if there is no data in the receive register.
-//
-//*****************************************************************************
-xtBoolean
-UARTFIFORxIsEmpty(unsigned long ulBase)
-{
-    //
-    // Check the arguments.
-    //
-    xASSERT(UARTBaseValid(ulBase));
-    return (xHWREG(ulBase + USART_SR) & USART_SR_RXNE);
-}
-
-//*****************************************************************************
-//
-//! \brief Determines if there are any space in the transmit FIFO.
-//!
-//! \param ulBase is the base address of the UART port.
-//!
-//! This function returns a flag indicating whether or not there is space
-//! available in the transmit FIFO.
-//!
-//! \return Returns \b true if there is space available in the transmit FIFO
-//! or \b false if there is no space available in the transmit FIFO.
-//
-//*****************************************************************************
-xtBoolean
-UARTFIFOTxIsEmpty(unsigned long ulBase)
-{
-    //
-    // Check the arguments.
-    //
-    xASSERT(UARTBaseValid(ulBase));
-	return (xHWREG(ulBase + USART_SR) & USART_SR_TXE);
 }
 
 //*****************************************************************************

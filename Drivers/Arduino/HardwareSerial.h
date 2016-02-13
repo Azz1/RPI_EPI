@@ -32,7 +32,7 @@ class HardwareSerial : public Stream
 {
   private:
     ring_buffer *_rx_buffer;
-    bool transmitting;
+    bool transmiting;
     unsigned long serialPort;
   public:
     HardwareSerial(ring_buffer *rx_buffer, uint32_t UARTBase);

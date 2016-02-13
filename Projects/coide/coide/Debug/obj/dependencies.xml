@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Drivers\Digital Compass /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Drivers\ArduinoMotorShield /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\ComPort /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Drivers /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Drivers\Digital Accelerometer /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Projects\coide /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Drivers\UltraSonic /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Drivers\ArduinoMotorShield\utility /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Utils /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\CoxLib\inc /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Apps /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Drivers\SensorShield /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\Drivers\Arduino /IF:\Work\Lichun\zlc\Study\Workspace\pi\EmbeddedPi\RPI_EPI\CoxLib">
+      <source file="..\..\..\..\..\Drivers\Arduino\Wire.h" lastModified="152c93e4536">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\Stream.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xi2c.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\ArduinoMotorShield\utility\Adafruit_MS_PWMServoDriver.h" lastModified="152b48e22e9">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\WProgram.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xsysctl.c" lastModified="13d6c14f874">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xspi.c" lastModified="13d6d667cda">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_spi.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xspi.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xdma.c" lastModified="13c935c1586">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_dma.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdma.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Digital Accelerometer\ADXL345.h" lastModified="13df3fe4910">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_i2c.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xi2c.h"/>
+         <include file="..\..\..\..\..\Drivers\Digital Accelerometer\hw_ADXL345.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Digital Accelerometer\ADXL345.c" lastModified="13c93413bff">
+         <include file="..\..\..\..\..\Drivers\Digital Accelerometer\ADXL345.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\HardwareSerial.h" lastModified="152c8e0e813">
+         <include file="..\..\..\..\..\Drivers\Arduino\Stream.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xtimer.h" lastModified="152c8c1d6c7">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\IPAddress.h" lastModified="14c7396850e">
+         <include file="..\..\..\..\..\Drivers\Arduino\Printable.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xtimer.c" lastModified="13c935c162e">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_timer.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xtimer.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\SoftwareSerial.h" lastModified="14c7396852b">
+         <include file="..\..\..\..\..\Drivers\Arduino\Stream.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_config.h" lastModified="139e2a30363">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xadc.h" lastModified="13d81f4af7e">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Digital Compass\hw_HMC5883L.h" lastModified="13d28845597">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\Stream.cpp" lastModified="14c73968145">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\Stream.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xdebug.h" lastModified="139e2a3035f">
+      </source>
+      <source file="..\..\..\..\..\Drivers\SensorShield\Sensor_Shield.h" lastModified="13d87307369">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xdebug.c" lastModified="13c935c1506">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\SoftwareSerial.cpp" lastModified="14c7396813d">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\SoftwareSerial.h"/>
+      </source>
+      <source file="..\..\..\..\..\Utils\cookie_cfg.h" lastModified="13d96b3185f">
+      </source>
+      <source file="..\..\..\..\..\Drivers\SensorShield\Sensor_Shield.c" lastModified="13d874a9b27">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xadc.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xuart.h"/>
+         <include file="..\..\..\..\..\Utils\cookie.h"/>
+         <include file="..\..\..\..\..\Drivers\SensorShield\Sensor_Shield.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_i2c.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xi2c.h"/>
+      </source>
+      <source file="..\..\..\..\..\Utils\cookie.h" lastModified="13deeb35a0a">
+         <include file="..\..\..\..\..\Utils\cookie_cfg.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\OneWire.cpp" lastModified="14c7396812a">
+         <include file="..\..\..\..\..\Drivers\Arduino\OneWire.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_adc.h" lastModified="13d874db77a">
+      </source>
+      <source file="..\..\..\..\..\ComPort\PortCfg.h" lastModified="13de205be45">
+         <include file="..\..\..\..\..\ComPort\I2C_Channel.h"/>
+         <include file="..\..\..\..\..\ComPort\UART_Channel.h"/>
+         <include file="..\..\..\..\..\ComPort\SPI_Channel.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\bit.h" lastModified="14c73968121">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\pgmspace.h" lastModified="14c739688fc">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h" lastModified="139e2a30380">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xadc.c" lastModified="13d8596da7a">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_adc.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xadc.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\Port.h" lastModified="152cec24f3f">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_uart.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xuart.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_spi.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xspi.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_i2c.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xi2c.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xpwm.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_adc.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xadc.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_timer.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xtimer.h"/>
+      </source>
+      <source file="..\..\..\..\..\Utils\DebugIO.c" lastModified="13de15d5de1">
+      </source>
+      <source file="..\..\..\..\..\ComPort\SPI_Channel.h" lastModified="13de1b80768">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xi2c.h" lastModified="152ce97bf44">
+      </source>
+      <source file="..\..\..\..\..\ComPort\SPI_Channel.c" lastModified="13dcd51b7a1">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xrtc.h" lastModified="13c935c160f">
+      </source>
+      <source file="..\..\..\..\..\Drivers\ArduinoMotorShield\Adafruit_MotorShield.h" lastModified="15266eef778">
+         <include file="..\..\..\..\..\Drivers\Arduino\Wire.h"/>
+         <include file="..\..\..\..\..\Drivers\ArduinoMotorShield\utility\Adafruit_MS_PWMServoDriver.h"/>
+      </source>
+      <source file="..\..\..\..\..\startup\startup_coide.c" lastModified="13c935c180d">
+      </source>
+      <source file="..\..\..\..\..\ComPort\UART_Channel.h" lastModified="13de1c457c8">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\WString.h" lastModified="14c73968d06">
+         <include file="..\..\..\..\..\Drivers\Arduino\pgmspace.h"/>
+      </source>
+      <source file="..\..\..\..\..\ComPort\UART_Channel.c" lastModified="13de267c2cb">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_uart.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xuart.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_i2c.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xspi.h"/>
+         <include file="..\..\..\..\..\ComPort\UART_Channel.h"/>
+         <include file="..\..\..\..\..\Utils\ringbuf.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\WProgram.h" lastModified="14c7396814b">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\Stream.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\HardwareSerial.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\Wire.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\SPI.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_ints.h" lastModified="139e2a3036b">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_i2c.h" lastModified="139e2a30369">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_types.h" lastModified="152c919348a">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\Print.h" lastModified="14c73968ce6">
+         <include file="..\..\..\..\..\Drivers\Arduino\WString.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\new.cpp" lastModified="14c73968127">
+         <include file="..\..\..\..\..\Drivers\Arduino\new.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_rtc.h" lastModified="139e2a3037a">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xwdt.h" lastModified="13c935c1646">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\IPAddress.cpp" lastModified="14c73968125">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\IPAddress.h"/>
+      </source>
+      <source file="..\..\..\..\..\Apps\DriverCfg.h" lastModified="152c95464e2">
+         <include file="..\..\..\..\..\Apps\Interface.h"/>
+         <include file="..\..\..\..\..\Drivers\Digital Compass\HMC5883L.h"/>
+         <include file="..\..\..\..\..\Drivers\Digital Accelerometer\ADXL345.h"/>
+         <include file="..\..\..\..\..\Drivers\UltraSonic\HC_SR04.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xi2c.c" lastModified="152c9076941">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_i2c.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xi2c.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\ArduinoMotorShield\Adafruit_MotorShield.cpp" lastModified="152b9bc6e77">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\WProgram.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\Wire.h"/>
+         <include file="..\..\..\..\..\Drivers\ArduinoMotorShield\Adafruit_MotorShield.h"/>
+         <include file="..\..\..\..\..\Drivers\ArduinoMotorShield\utility\Adafruit_MS_PWMServoDriver.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xpwm.h" lastModified="13c935c160b">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Digital Accelerometer\hw_ADXL345.h" lastModified="13c93417e02">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xrtc.c" lastModified="13c935c160d">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_rtc.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xrtc.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_timer.h" lastModified="139e2a30383">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="152d372a276">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\TimerOne.cpp" lastModified="14c73968147">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\TimerOne.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xgpio.h" lastModified="13dcd916873">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_wdt.h" lastModified="139e2a30388">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h" lastModified="139e2a30368">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\HardwareSerial.cpp" lastModified="152c990fdcd">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\HardwareSerial.h"/>
+      </source>
+      <source file="..\..\..\..\..\ComPort\I2C_Channel.h" lastModified="13de1b72cc5">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h" lastModified="139e2a3036e">
+      </source>
+      <source file="..\..\..\..\..\ComPort\I2C_Channel.c" lastModified="13dcd51b7a1">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\Print.cpp" lastModified="14c739688fd">
+         <include file="..\..\..\..\..\Drivers\Arduino\Print.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xwdt.c" lastModified="13c935c1643">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_wdt.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xwdt.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\Arduino.h" lastModified="14c7396a060">
+         <include file="..\..\..\..\..\Drivers\Arduino\bit.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\Port.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\Print.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xpwm.c" lastModified="13c935c160a">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_timer.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xpwm.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xuart.h" lastModified="152cea33084">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xcore.h" lastModified="139e2a30912">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xuart.c" lastModified="152c8d78547">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_uart.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xuart.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_uart.h" lastModified="139e2a30386">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xgpio.c" lastModified="152c95848b3">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\Printable.h" lastModified="14c7396812f">
+         <include file="..\..\..\..\..\Drivers\Arduino\new.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Digital Compass\HMC5883L.h" lastModified="13df3fe4d07">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_i2c.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xi2c.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_uart.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xuart.h"/>
+         <include file="..\..\..\..\..\Drivers\Digital Compass\hw_HMC5883L.h"/>
+      </source>
+      <source file="..\..\..\..\..\Framework\Frame.c" lastModified="152d386ca33">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_uart.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xuart.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_i2c.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xspi.h"/>
+         <include file="..\..\..\..\..\Utils\cookie.h"/>
+         <include file="..\..\..\..\..\ComPort\PortCfg.h"/>
+         <include file="..\..\..\..\..\Apps\DriverCfg.h"/>
+         <include file="..\..\..\..\..\Apps\Interface.h"/>
+      </source>
+      <source file="..\..\..\..\..\Apps\Interface.h" lastModified="13df318b591">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\SPI.cpp" lastModified="14c73968144">
+         <include file="..\..\..\..\..\Drivers\Arduino\SPI.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Digital Compass\HMC5883L.c" lastModified="13d2884556a">
+         <include file="..\..\..\..\..\Drivers\Digital Compass\HMC5883L.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\WString.cpp" lastModified="14c7396814d">
+         <include file="..\..\..\..\..\Drivers\Arduino\WString.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\UltraSonic\HC_SR04.h" lastModified="13dd420624c">
+      </source>
+      <source file="..\..\..\..\..\Utils\ringbuf.h" lastModified="13dab1f04ce">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\SPI.h" lastModified="14c7396852d">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\src\xcore.c" lastModified="13c935c14fb">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_config.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xdebug.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\UltraSonic\HC_SR04.c" lastModified="13dcfd9aba4">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_timer.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xtimer.h"/>
+         <include file="..\..\..\..\..\Drivers\UltraSonic\HC_SR04.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\new.h" lastModified="14c739688f9">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\cPi.cpp" lastModified="152c8bed179">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+      </source>
+      <source file="..\..\..\..\..\Utils\ringbuf.c" lastModified="13dab1f6e6c">
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_types.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_memmap.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_ints.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xcore.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xsysctl.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_gpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xgpio.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xhw_uart.h"/>
+         <include file="..\..\..\..\..\CoxLib\inc\xuart.h"/>
+         <include file="..\..\..\..\..\Utils\ringbuf.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\Stream.h" lastModified="14c7396852e">
+         <include file="..\..\..\..\..\Drivers\Arduino\Print.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\WString.h"/>
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\Wire.cpp" lastModified="152c92d82d4">
+         <include file="..\..\..\..\..\Drivers\Arduino\Wire.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xspi.h" lastModified="13dcd9227f0">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xdma.h" lastModified="13c935c158d">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xsysctl.h" lastModified="139e2a2ff94">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\OneWire.h" lastModified="14c73968513">
+         <include file="..\..\..\..\..\Drivers\Arduino\Arduino.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\WProgram.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_nvic.h" lastModified="139e2a30378">
+      </source>
+      <source file="..\..\..\..\..\Drivers\Arduino\TimerOne.h" lastModified="14c73968148">
+      </source>
+      <source file="..\..\..\..\..\Drivers\ArduinoMotorShield\utility\Adafruit_MS_PWMServoDriver.cpp" lastModified="15266eef390">
+         <include file="..\..\..\..\..\Drivers\ArduinoMotorShield\utility\Adafruit_MS_PWMServoDriver.h"/>
+         <include file="..\..\..\..\..\Drivers\Arduino\Wire.h"/>
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_spi.h" lastModified="13d5d73b53a">
+      </source>
+      <source file="..\..\..\..\..\CoxLib\inc\xhw_dma.h" lastModified="139e2a30366">
+      </source>
+   </includePath>
+</dependencies>

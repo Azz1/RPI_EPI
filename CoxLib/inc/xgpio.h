@@ -1304,9 +1304,6 @@ extern unsigned long xGPIODirModeGet(unsigned long ulPort,
 //*****************************************************************************
 #define xGPIOPinIntCallbackInit(ulPort, ulPin, pfnCallback)                   \
         GPIOPinIntCallbackInit(ulPort, ulPin, pfnCallback)
-		
-#define xGPIOSPinIntCallbackInit(eShortPin, pfnCallback)                   \
-        GPIOSPinIntCallbackInit(eShortPin, pfnCallback)
         
 //*****************************************************************************
 //
@@ -1525,20 +1522,6 @@ extern unsigned long xGPIODirModeGet(unsigned long ulPort,
 #define xGPIOPinRead(ulPort, ulPins)                                          \
         GPIOPinRead(ulPort, ulPins)
 
-//*****************************************************************************
-//
-//! \brief Reads the values present of the specified Port.
-//!
-//! \param ulPort is the base address of the GPIO port.
-//!
-//! The values at the specified Port are read
-//!
-//! \return Returns a bit-packed byte providing the state of the specified
-//! Port
-//
-//*****************************************************************************
-#define xGPIOPortRead(ulPort)                                                 \
-        GPIOPortRead(ulPort)
 
 //*****************************************************************************
 //
@@ -1587,22 +1570,6 @@ extern unsigned long xGPIODirModeGet(unsigned long ulPort,
 
 //*****************************************************************************
 //
-//! \brief Writes a value to the specified Port.
-//!
-//! \param ulPort is the base address of the GPIO port.
-//! \param ucVal is the value to write to the Port.
-//!
-//! Writes the corresponding bit values to the output Port
-//!
-//! \return None.
-//
-//*****************************************************************************
-#define xGPIOPortWrite(ulPort, ulVal)                                         \
-        GPIOPortWrite(ulPort, ulVal)
-
-		
-//*****************************************************************************
-//
 //! \brief Write a value to the specified pin.
 //!
 //! \param eShortPin Specified port and pin.
@@ -1639,8 +1606,8 @@ extern unsigned long xGPIODirModeGet(unsigned long ulPort,
 //! \return None.
 //
 //*****************************************************************************        
-#define xGPIOPinConfigure(eShortPin, ulPinConfig)                                        \
-        GPIOSPinConfigure(eShortPin, ulPinConfig)
+#define xGPIOPinConfigure(ePeripheralPin, eShortPin)                                        \
+        GPIOSPinConfigure(ePeripheralPin, eShortPin)
 
 //*****************************************************************************
 //
@@ -3483,9 +3450,6 @@ extern unsigned long xGPIODirModeGet(unsigned long ulPort,
 
 #define GPIOSPinFunctionSet(ulFunction, eShortPin)                            \
         GPIOPinFunctionSet(ulFunction, G##eShortPin)
-		
-#define GPIOSPinIntCallbackInit(eShortPin, xtPortCallback)  \
-		GPIOPinIntCallbackInit(G##eShortPin, xtPortCallback)
 
 #define GPIOSPinIntEnable(eShortPin, ulIntType)                               \
         GPIOPinIntEnable(G##eShortPin, ulIntType)
@@ -3589,3 +3553,4 @@ extern unsigned long  GPIOPinToPin(unsigned long ulPort,
 #endif
 
 #endif //  __xGPIO_H__
+

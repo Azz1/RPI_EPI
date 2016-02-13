@@ -89,10 +89,11 @@ typedef          int   int32_t;
 
 #define FALSE                   0
 #define TRUE                    1
-#define BUF_MAX_SIZE            300
+#define BUF_MAX_SIZE_R            300
+#define BUF_MAX_SIZE_T            3000
 
-static uint8_t R_Msg[BUF_MAX_SIZE];
-static uint8_t T_Msg[BUF_MAX_SIZE];
+static uint8_t R_Msg[BUF_MAX_SIZE_R];
+static uint8_t T_Msg[BUF_MAX_SIZE_T];
 
 /*
 typedef struct CmdStruct
@@ -403,6 +404,7 @@ void main(void)
     //Add your Module Function here
     CmdRegister(0x00, 0x00, SystemCtl);
     CmdRegister(0x40, 0x00, MotorShieldOperation);
+    CmdRegister(0x40, 0x01, TinkerKitOperation);
     CmdRegister(0x40, 0x02, UltrasonicSensorOperation);
     CmdRegister(0x40, 0x04, DigitalCompass);
 

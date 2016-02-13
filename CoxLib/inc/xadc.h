@@ -1418,3 +1418,4 @@ extern void ADCTemperatureRefVolDisable(unsigned long ulBase);
 #endif
 
 #endif // __xADC_H__
+

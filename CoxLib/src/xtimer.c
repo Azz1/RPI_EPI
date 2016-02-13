@@ -55,17 +55,6 @@
 //*****************************************************************************
 static xtEventCallback g_pfnTimerHandlerCallbacks[22]={0};
 
-//*****************************************************************************
-//
-// If building with a C++ compiler, make all of the definitions in this header
-// have a C binding.
-//
-//*****************************************************************************
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
 #if (TIM1_FUNCTION_SELECT == TIM_TIMER || TIM9_FUNCTION_SELECT == TIM_TIMER)
 //*****************************************************************************
 //
@@ -239,7 +228,6 @@ TIM1CCIntHandler(void)
     // The SR register read cleared
     //
     ulTemp = xHWREG(TIM1_BASE + TIMER_SR);
-    xHWREG(TIM1_BASE + TIMER_SR) &= ~0x1E;
 
     g_pfnTimerHandlerCallbacks[4](0, 0, ulTemp, 0);
     
@@ -602,16 +590,6 @@ TIM8CCIntHandler(void)
     
 }
 #endif
-#endif
-
-//*****************************************************************************
-//
-// If building with a C++ compiler, make all of the definitions in this header
-// have a C binding.
-//
-//*****************************************************************************
-#ifdef __cplusplus
-}
 #endif
 
 //*****************************************************************************
@@ -6062,6 +6040,6 @@ TimerIntClear(unsigned long ulBase, unsigned long ulIntFlags)
             (ulIntFlags == TIMER_INT_UEV) || (ulIntFlags == TIMER_INT_TEV) ||
             (ulIntFlags == TIMER_INT_COM) || (ulIntFlags == TIMER_INT_BRK));
     
-    xHWREG(ulBase + TIMER_SR) &= ~ulIntFlags;
+    xHWREG(ulBase + TIMER_SR) = ~ulIntFlags;
 
 }

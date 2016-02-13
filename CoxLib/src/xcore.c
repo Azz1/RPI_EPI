@@ -42,6 +42,7 @@
 #include "xhw_types.h"
 #include "xhw_ints.h"
 #include "xhw_memmap.h"
+#include "xhw_config.h"
 #include "xhw_nvic.h"
 #include "xdebug.h"
 #include "xcore.h"
@@ -104,7 +105,7 @@ IntDefaultHandler(void)
 // on entry.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 unsigned long __attribute__((naked))
 xCPUcpsid(void)
 {
@@ -165,7 +166,7 @@ xCPUcpsid(void)
 // interrupts are enabled or disabled).
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 unsigned long __attribute__((naked))
 xCPUprimask(void)
 {
@@ -223,7 +224,7 @@ xCPUprimask(void)
 // on entry.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 unsigned long __attribute__((naked))
 xCPUcpsie(void)
 {
@@ -283,7 +284,7 @@ xCPUcpsie(void)
 // Wrapper function for the WFI instruction.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 void __attribute__((naked))
 xCPUwfi(void)
 {
@@ -321,7 +322,7 @@ xCPUwfi(void)
 // Wrapper function for the WFE instruction.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 void __attribute__((naked))
 xCPUwfe(void)
 {
@@ -359,7 +360,7 @@ xCPUwfe(void)
 // Wrapper function for writing the BASEPRI register.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 void __attribute__((naked))
 xCPUbasepriSet(unsigned long ulNewBasepri)
 {
@@ -398,7 +399,7 @@ xCPUbasepriSet(unsigned long ulNewBasepri)
 // Wrapper function for reading the BASEPRI register.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 unsigned long __attribute__((naked))
 xCPUbasepriGet(void)
 {
@@ -455,7 +456,7 @@ xCPUbasepriGet(void)
 // Wrapper function for writing the PSP register.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 void __attribute__((naked))
 xCPUpspSet(unsigned long ulNewPspStack)
 {
@@ -494,7 +495,7 @@ xCPUpspSet(unsigned long ulNewPspStack)
 // Wrapper function for reading the psp register.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 unsigned long __attribute__((naked))
 xCPUpspGet(void)
 {
@@ -571,7 +572,7 @@ xCPUpspGet(void)
 // Wrapper function for writing the msp register.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 void __attribute__((naked))
 xCPUmspSet(unsigned long ulNewmspStack)
 {
@@ -621,7 +622,7 @@ xCPUmspSet(unsigned long ulNewmspStack)
 // Wrapper function for reading the msp register.
 //
 //*****************************************************************************
-#if defined(codered) || defined(gcc) || defined(sourcerygxx) || defined(__GNUC__)
+#if defined(gcc) || defined(__GNUC__)
 unsigned long __attribute__((naked))
 xCPUmspGet(void)
 {
